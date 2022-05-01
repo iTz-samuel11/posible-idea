@@ -9,12 +9,12 @@
     <title>Instagram Feed Bootstrap</title>
 </head>
 <body>
-    <nav class="navbar navbar-light bg-light">
+    <nav class="container-fluid navbar navbar-light bg-light col-10 justify-content-center">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <i class="fa-brands fa-instagram"class="d-inline-block align-text-top" style="width:400ox; margin-left: 300px;"></i>
+            <i class="fa-brands fa-instagram"class="d-inline-block align-text-top" ></i>
             Instagram
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="margin-left: 890px">
+            <button type="button" class="btn btn-primary" style="margin-left:440%" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 Create a New Post
             </button>
               <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="margin-right: 20px;">
@@ -43,7 +43,7 @@
               </div>
               
               <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle bg-withe" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right:320px;">
+                <button class="btn btn-secondary dropdown-toggle bg-withe" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                   <i class="fa-solid fa-gear"></i>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -60,24 +60,24 @@
     </nav>
     <nav class="nav justify-content-center nav-pills m-2">
       <a class="nav-link active" href="#feed1" data-toggle="tab"><i class="fa-solid fa-border-all"></i></a>
-      <a class="nav-link" href="#post" data-toggle="tab"><i class="fa-solid fa-square"></i></a>
+      <a class="nav-link disable" href="#post" data-toggle="tab"><i class="fa-solid fa-square"></i></a>
     </nav>
     <div class="tap-content py-5 justify-content-center">
-      <div class="tab-pane active justify-content-center ml-3" style="margin-left:170px;" id="feed1">
-        <img src="https://i2.wp.com/revista.weepec.com/wp-content/uploads/2018/05/cachorro.jpg?fit=1000%2C846&ssl=1" style="height:500px; width: 500px; margin: 5px;" alt="cachorrito">
-        <img src="https://static.americadigital.com/wp-content/uploads/2020/07/americadigital_perro_en_patineta_2020.jpg" style="height:500px; width: 500px; margin: 5px;" alt="perro en patineta">
-        <img src="https://aprendecomohacerlo.com/wp-content/uploads/2021/02/corregir-fotos-borrosas-android.png" style="height:500px; width: 500px; margin: 5px;" alt="foto borrosa">
-        <img src="https://img.blogs.es/anexom/wp-content/uploads/2018/03/programar-920x515.jpg" style="height:500px; width: 500px; margin: 5px;" alt="programador">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/TOROS_COLEADOS.jpg" style="height:500px; width: 500px; margin: 5px;" alt="coleada de toros">
-        <img src="https://www.sistemaimpulsa.com/blog/wp-content/uploads/2019/01/conversacion-jefe-empleado-696x392.jpg" style="height:500px; width: 500px; margin: 5px;" alt="jefe">
-        <img src="https://img.freepik.com/foto-gratis/mujer-loca-enojada_102671-4473.jpg?w=1380" style="height:500px; width: 500px; margin: 5px;" alt="loca">
-        <img src="https://ipmark.com/wp-content/uploads/oficina-ip-800x445.jpg" style="height:500px; width: 500px; margin: 5px;" alt="ofinina">
-        <img src="https://wwwhatsnew.com/wp-content/uploads/2018/06/Ulefone-Power-movil-con-mucha-bateria-730x350.jpg" style="height: 500px; width: 500px; margin: 5px;"  alt="telefonos cargando">
+      <div class="tab-pane active justify-content-center ml-3" style="margin-left:250px;" id="feed1">
+        <img src="https://i2.wp.com/revista.weepec.com/wp-content/uploads/2018/05/cachorro.jpg?fit=1000%2C846&ssl=1" style="height:450px; width: 27%; margin: 5px;" alt="cachorrito">
+        <img src="https://static.americadigital.com/wp-content/uploads/2020/07/americadigital_perro_en_patineta_2020.jpg" style="height:450px; width: 27%; margin: 5px;" alt="perro en patineta">
+        <img src="https://aprendecomohacerlo.com/wp-content/uploads/2021/02/corregir-fotos-borrosas-android.png" style="height:450px; width: 27%; margin: 5px;" alt="foto borrosa">
+        <img src="https://img.blogs.es/anexom/wp-content/uploads/2018/03/programar-920x515.jpg" style="height:500px; width: 27%; margin: 5px;" alt="programador">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/TOROS_COLEADOS.jpg" style="height:500px; width: 27%; margin: 5px;" alt="coleada de toros">
+        <img src="https://www.sistemaimpulsa.com/blog/wp-content/uploads/2019/01/conversacion-jefe-empleado-696x392.jpg" style="height:500px; width: 27%; margin: 5px;" alt="jefe">
+        <img src="https://img.freepik.com/foto-gratis/mujer-loca-enojada_102671-4473.jpg?w=1380" style="height:500px; width: 27%; margin: 5px;" alt="loca">
+        <img src="https://ipmark.com/wp-content/uploads/oficina-ip-800x445.jpg" style="height:500px; width: 27%; margin: 5px;" alt="ofinina">
+        <img src="https://wwwhatsnew.com/wp-content/uploads/2018/06/Ulefone-Power-movil-con-mucha-bateria-730x350.jpg" style="height: 500px; width: 27%; margin: 5px;"  alt="telefonos cargando">
       </div>
-      <div class="tab-pane active" id="post">
+      <div class="tab-pane disable" id="post">
         <div class="container justify-content-center">
            <div class="d-flex">
-             <h2>mi primera foto</h2><span class="text-muted">12/14</span>
+             <h2 style="margin-right: 50%">mi primera foto</h2><span class="text-muted">12/14</span>
            </div>
            <div>
               <img src="https://i2.wp.com/revista.weepec.com/wp-content/uploads/2018/05/cachorro.jpg?fit=1000%2C846&ssl=1" alt="cachorrito">
@@ -89,7 +89,7 @@
            <div class="d-flex">
              <div><i class="fa-light fa-heart"></i></div>
              <div style="margin-left:10px; margin-right:400px;"><p>Comment...</p></div>
-             <div><i class="fa-light fa-ellipsis-vertical"></i></div>
+             <div><i class="fa-light fa-ellipsis-stroke-vertical"></i></div>
            </div>
         </div>
       </div>
